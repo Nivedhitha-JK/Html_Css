@@ -158,3 +158,21 @@ footer{
     color:var(--white);
     padding: 8px;
 }
+
+.socialIco ul li{
+    list-style-type: none;
+    padding:1%;
+}
+.socialIco ul{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 0px;
+    padding: 0;
+}
+#copyright{
+    margin-top: 2%;
+}
+.socialIco ul li a{
+ animation: flip duration timing-function delay iteration-count direction fill-mode;
+}
