@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .gallery{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        gap: 1rem;
+       }
+       .gallery > div{
+        flex: 1;
+        transition: all 1s;
+       }
+       .gallery > div:nth-child(1){
+        background: url(./images/clemens-van-lay-un1s8VOLRC0-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+    }
+    .gallery > div:nth-child(2){
+        background: url(./images/2790907.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+    }
+    .gallery > div:nth-child(3){
+        background: url(./images/millo-lin-IbngTBpNuMA-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+       }
+       .gallery>div:hover{
+        flex: 6;
+       }
+
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>
